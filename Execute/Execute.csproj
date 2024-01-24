@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Content Remove="LUT" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <EmbeddedResource Include="LUT" />
+    </ItemGroup>
+
+</Project>
